@@ -2,7 +2,12 @@ import React from 'react';
 
 function Button(props) {
   return ( 
-    <button className={props.className}>Do Something</button>
+    <button className={props.className}>
+      <div className="icon">
+        {props.icon}
+      </div>
+      {props.text}
+    </button>
    );
 }
 
