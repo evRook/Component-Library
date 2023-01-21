@@ -7,12 +7,12 @@ export default {
     component: Button,
 }
 
-export const Primary = () => <Button className="primary"/>
-export const Danger = () => <Button className="danger"/>
-export const Success = () => <Button className="success"/>
-export const Warning = () => <Button className="warning"/>
-export const Default = () => <Button className="default"/>
-export const AddToCart = () => <Button />
-export const CartIcon = () => <Button />
-export const AddToFavorites = () => <Button />
-export const FavoritesIcon = () => <Button />
+export const Primary = () => <Button className="primary global"/>
+export const Danger = () => <Button className="danger global"/>
+export const Success = () => <Button className="success global"/>
+export const Warning = () => <Button className="warning global"/>
+export const Default = () => <Button className="default global"/>
+// export const AddToCart = () => <Button />
+// export const CartIcon = () => <Button />
+// export const AddToFavorites = () => <Button />
+// export const FavoritesIcon = () => <Button />
