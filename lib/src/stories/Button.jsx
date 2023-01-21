@@ -2,7 +2,7 @@ import React from 'react';
 
 function Button(props) {
   return ( 
-    <button className="primary">Button</button>
+    <button className={props.className}>Do Something</button>
    );
 }
 
