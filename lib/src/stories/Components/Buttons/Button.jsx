@@ -11,7 +11,6 @@ export default function Button({Type, Text, Size = "Medium", icon}) {
 
   let style = {
     padding: `${x * 12}px ${x * 25}px`,
-    transitionDuration: "0.1s",
   }
 
   return ( 
