@@ -3,7 +3,7 @@ import Form from './Form'
 import './form.css'
 
 export default {
-    title: 'Form',
+    title: 'Forms',
     component: Form,
 }
 

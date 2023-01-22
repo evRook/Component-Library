@@ -4,7 +4,7 @@
     border: none;
     border-radius: 4px;
     color: white;
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
 }
 
 .primary {
@@ -103,10 +103,6 @@
     margin: 3px 10px 0px 10px;
 }
 
-.cartIcon {
-    padding: 0;
-}
-
-.favoritesIcon {
+.cartIcon, .favoritesIcon {
     padding: 0;
 }
