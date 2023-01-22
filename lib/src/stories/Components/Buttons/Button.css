@@ -29,7 +29,7 @@
 
 .Danger:active {
     color: #ff4252;
-    border: 2px #ff4252 solid;
+    border: 1px #ff4252 solid;
     background-color: #FFFFFF;
 }
 
@@ -43,7 +43,7 @@
 
 .Success:active {
     color: #07C107;
-    border: 2px #07C107 solid;
+    border: 1px #07C107 solid;
     background-color: #FFFFFF;
 }
 
@@ -57,7 +57,7 @@
 
 .Warning:active {
     color: #EBB600;
-    border: 2px #EBB600 solid;
+    border: 1px #EBB600 solid;
     background-color: #FFFFFF;
 }
 
@@ -71,12 +71,12 @@
 
 .Default:active {
     color: #13161A;
-    border: 2px #13161A solid;
+    border: 1px #13161A solid;
     background-color: #FFFFFF;
 }
 
-.visited--Default {
+/* .visited--Default {
     color: #13161A;
     border: none;
     background-color: #dadada;
-}
+} */

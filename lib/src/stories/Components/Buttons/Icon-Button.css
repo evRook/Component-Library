@@ -1,0 +1,28 @@
+.globalIcons {
+    border: none;
+    border-radius: 5px;
+    color: #2e90e5;
+    height: 30px;
+    background-color: #e6f0fb;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.globalIcons:hover {
+    background-color: #c7e6ff;
+}
+
+.globalIcons:active {
+    border: 1px #2e90e5 solid;
+    background-color: #FFFFFF;
+}
+
+.icon {
+    margin-top: 3px;
+}
+
+.spacing {
+    padding: 10px;
+}

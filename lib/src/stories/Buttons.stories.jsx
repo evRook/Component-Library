@@ -1,6 +1,7 @@
 import React from 'react';
-import Button from './Components/Buttons/Primary'
-import './Components/Buttons/Primary.css'
+import Button from './Components/Buttons/Button'
+import './Components/Buttons/Button.css'
+import { AiOutlineShoppingCart, AiOutlineHeart } from "react-icons/ai"
 
 export default {
     title: 'Buttons',
@@ -11,17 +12,17 @@ export default {
             control: { type: 'radio'},
         },
         Type: {
-            options: ['Default', 'Primary', 'Danger', 'Success', 'Warning'],
-            control: { type: 'radio'},
-        }
+            options: ["Default", "Primary", "Danger", "Success", "Warning"],
+            control: { type: 'select'}
+        },
     }
 }
 
 const Template = (args) => <Button {...args} />
 
-export const Primary = Template.bind({})
+export const Default = Template.bind({})
 
-Primary.args = {
+Default.args = {
     Text: "Do Something",
     Type: "Default",
     Size: "Medium",
