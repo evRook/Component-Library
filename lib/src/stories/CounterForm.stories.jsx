@@ -7,4 +7,11 @@ export default {
     component: CounterBtn,
 }
 
-export const Counter = () => <CounterBtn />
+const Template = (args) => <CounterBtn {...args} />
+
+export const Counter = Template.bind({})
+
+Counter.args = {
+    Min: 0,
+    Max: 20,
+}
