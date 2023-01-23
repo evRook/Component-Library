@@ -9,12 +9,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+.counter--text {
     margin-top: 12px;
     font-size: 10px;
 }
 
-button {
+.counter--button {
     border: none;
     color: #33A0FF;
 }

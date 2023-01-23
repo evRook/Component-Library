@@ -7,4 +7,4 @@ export default {
     component: CounterBtn,
 }
 
-export const Counter = () => <CounterBtn className="testcounter"/>
+export const Counter = () => <CounterBtn />
