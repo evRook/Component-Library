@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function EmailForm({Size = "Small"}) {
+export default function EmailForm({Size = "Small", Placeholder, Label}) {
 
     let x = 1
     if(Size === "Small"){
@@ -13,10 +13,14 @@ export default function EmailForm({Size = "Small"}) {
         padding: `${x * 12}px ${x * 25}px ${x * 12}px 15px`,
     }
 
+    if(Placeholder === '') {
+        Placeholder = Label 
+    }
+
     return ( 
         <div className="email--container">
-            <label for="emailInput">Email</label>
-            <input type="text" placeholder="Email" id="emailInput" Size={Size} style={style}/>
+            <label for="emailInput">{Label}</label>
+            <input type="text" placeholder={Placeholder} id="emailInput" Size={Size} style={style}/>
         </div>
     );
 }

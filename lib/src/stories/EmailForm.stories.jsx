@@ -13,12 +13,12 @@ export default {
     }
 }
 
-// export const Email = () => <EmailForm className="test"/>
-
 const Template = (args) => <EmailForm {...args} />
 
 export const Email = Template.bind({})
 
 Email.args = {
     Size: "Small",
+    Label: "Email",
+    Placeholder: "Email",
 }
