@@ -5,6 +5,19 @@ import './Components/Forms/CheckboxForm.css'
 export default {
     title: 'Forms',
     component: CheckboxForm,
+    argTypes: {
+        Style: {
+            options: ['Default', 'Secondary'],
+            control: { type: 'inline-radio' }
+        }
+    }
 }
 
-export const Checkbox = () => <CheckboxForm className="testcheckbox"/>
+const Template = (args) => <CheckboxForm {...args} />
+
+export const Default = Template.bind({})
+
+Default.args = {
+    Style: 'Default',
+    Text: "Don't show this popup again",
+}

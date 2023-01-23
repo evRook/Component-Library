@@ -9,7 +9,7 @@ export default {
     argTypes: {
         Size: {
             options: ['Small', 'Medium', 'Large'],
-            control: { type: 'radio'},
+            control: { type: 'inline-radio'},
         },
         Type: {
             options: ["Default", "Primary", "Danger", "Success", "Warning"],
