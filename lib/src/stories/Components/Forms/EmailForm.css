@@ -1,3 +1,23 @@
-.test {
-    color: red;
+.email--container {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.email--container label {
+    padding-bottom: 5px;
+}
+
+.email--container input {
+    border-radius: 4px;
+    border: 1px solid #e4e4e4;
+    width: 200px;
+}
+
+.email--container input::placeholder {
+    color: #d0d0d0;
 }
