@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function CounterBtn({Min, Max}) {
+export default function CounterBtn({Min, Max, Value}) {
 
     let x = 1;
 
@@ -8,7 +8,7 @@ export default function CounterBtn({Min, Max}) {
         padding: `${x * 12}px ${x * 25}px`,
     }
 
-    let [count, setCount] = useState(0);
+    let [count, setCount] = useState(Value);
 
     function countUp() {
         if(count < Max) {

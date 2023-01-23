@@ -12,6 +12,7 @@ const Template = (args) => <CounterBtn {...args} />
 export const Counter = Template.bind({})
 
 Counter.args = {
+    Value: 0,
     Min: 0,
     Max: 20,
 }
