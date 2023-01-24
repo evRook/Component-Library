@@ -15,9 +15,9 @@ export default {
 
 const Template = (args) => <CheckboxForm {...args} />
 
-export const Default = Template.bind({})
+export const Checkboxes = Template.bind({})
 
-Default.args = {
+Checkboxes.args = {
     Style: 'Default',
     Text: "Don't show this popup again",
 }
