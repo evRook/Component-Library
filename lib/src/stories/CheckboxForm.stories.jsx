@@ -7,7 +7,7 @@ export default {
     component: CheckboxForm,
     argTypes: {
         Style: {
-            options: ['Default', 'Secondary'],
+            options: ['Main', 'Secondary'],
             control: { type: 'inline-radio' }
         }
     }
@@ -18,6 +18,6 @@ const Template = (args) => <CheckboxForm {...args} />
 export const Checkboxes = Template.bind({})
 
 Checkboxes.args = {
-    Style: 'Default',
+    Style: 'Main',
     Text: "Don't show this popup again",
 }
