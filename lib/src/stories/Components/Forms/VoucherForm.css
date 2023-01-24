@@ -1,7 +1,6 @@
 .voucher--container {
     display: flex;
     align-items: center;
-    text-align: center;
 }
 
 .voucher--container input {
@@ -10,6 +9,7 @@
     border-radius: 3px 0px 0px 3px;
     border-right: transparent;
     font-size: 10px;
+    transition-duration: 0.4s;
 }
 
 .voucher--container input::placeholder {
@@ -30,4 +30,5 @@
     border-radius: 0px 3px 3px 0px;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 0.4s;
 }
