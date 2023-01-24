@@ -16,7 +16,6 @@
 }
 
 .vertical--overlay {
-    border: 1px grey solid;
     width: 100%;
     height: 216px;
     display: flex;
@@ -25,7 +24,41 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #c1c8ceb0;
+    background-color: #ffffffe9;
+}
+
+
+.vertical--favBtn {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    color: #2E90E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #98cfff;
+}
+
+.vertical--favBtn:hover, .vertical--cartBtn:hover {
+    background-color: #98cfff;
+}
+
+.vertical--favBtn:active, .vertical--cartBtn:active {
+    background-color: #33A0FF;
+    border-color: #33A0FF;
+    color: #FFFFFF;
+}
+
+.vertical--cartBtn {
+    height: 30px;
+    width: 30px;
+    color: #2E90E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #98cfff;
 }
 
 .vertical--lineBreak {
@@ -59,6 +92,8 @@
     display: flex;
     justify-content: space-around;
 }
+
+
 
 .test {
     color: #FFC600;

@@ -1,24 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import macBook from './img/50061505_575246.png'
 import IconButton from "/Users/ericspychalski/GA-Assignments/sandbox/Component-Library/lib/src/stories/Components/Buttons/Icon-Button.jsx";
 import { AiFillStar, AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
 
 export default function VerticalTemplate({props}) {
 
-    // function changeColor() {
-    //     console.log("test")
-    // }
+    let [state, setState] = useState('none');
+    let toggle = {display: state,}
 
-    // let style = {}
+    function toggleOverlay() {  
+        if(state === 'none'){
+            setState('flex')
+        }else if(state === 'flex'){
+            setState('none')
+        }
+    }
+
 
     return (
       <div className="vertical--container">
         <div className="vertical--img">
-            <img src={macBook} alt="" />
+            <img src={macBook} alt="Apple MacBook Pro" onMouseEnter={toggleOverlay} />
         </div>
-        <div className="vertical--overlay">
-            <IconButton icon={<AiOutlineHeart />} Size="Small" onClick={changeColor}/>
-            <IconButton icon={<AiOutlineShoppingCart />} Size="Small" />
+        <div className="vertical--overlay" style={toggle} onMouseLeave={toggleOverlay} >
+            <div className="vertical--favBtn" >
+                <AiOutlineHeart />
+            </div>
+            <div className="vertical--cartBtn">
+                <AiOutlineShoppingCart />
+            </div>
         </div>
         <div className="vertical--lineBreak"></div>
         <p className="vertical--title">Apple MacBook Pro</p>

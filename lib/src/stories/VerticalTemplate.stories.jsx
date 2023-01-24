@@ -7,4 +7,4 @@ export default {
     component: VerticalTemplate,
 }
 
-export const Vertical = () => <VerticalTemplate className="testVertical" />
+export const Vertical = () => <VerticalTemplate />
