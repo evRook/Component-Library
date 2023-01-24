@@ -7,4 +7,4 @@ export default {
     component: VerticalTemplate,
 }
 
-export const Vertical = () => <VerticalTemplate />
+export const Portfolio = () => <VerticalTemplate />

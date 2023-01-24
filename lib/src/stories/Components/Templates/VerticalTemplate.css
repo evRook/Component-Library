@@ -1,6 +1,6 @@
 .vertical--container {
     width: 255px;
-    padding: 40px 10px;
+    padding: 40px 10px 20px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,38 +63,40 @@
 
 .vertical--lineBreak {
     border: 1px #F1F3F4 solid;
+    margin-bottom: 10px;
     width: 90%;
 }
 
 .vertical--title {
+    margin-bottom: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.vertical--sale {
-    border: 1px grey solid;
-    color: #FF4858;
-}
-
-.vertical--msrp {
-    border: 1px grey solid;
-    text-decoration: line-through;
-    color: #C1C8CE;
-}
-
 .vertical--rating__container {
-    border: 1px grey solid;
     margin-bottom: 10px;
 }
 
+.rating--active {
+    color: #FFC600;
+}
+
+.rating--inactive {
+    color: #C1C8CE;
+}
+
 .vertical--price__container {
-    border: 1px grey solid;
     width: 35%;
     display: flex;
     justify-content: space-around;
 }
 
+.vertical--sale {
+    margin: 0px;
+    color: #FF4858;
+}
 
-
-.test {
-    color: #FFC600;
+.vertical--msrp {
+    margin: 0px;
+    text-decoration: line-through;
+    color: #C1C8CE;
 }
