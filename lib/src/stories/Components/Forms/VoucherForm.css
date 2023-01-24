@@ -1,6 +1,7 @@
 .voucher--container {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .voucher--container input {
@@ -8,7 +9,6 @@
     border: 1px solid #E5E8EA;
     border-radius: 3px 0px 0px 3px;
     border-right: transparent;
-    padding: 9px 10px;
     font-size: 10px;
 }
 
@@ -23,8 +23,9 @@
 }
 
 .voucher--container label {
+    cursor: pointer;
     color: #FFFFFF;
-    padding: 10px 20px;
+    border: 1px solid #33A0FF;
     background-color: #33A0FF;
     border-radius: 0px 3px 3px 0px;
     font-size: 10px;
