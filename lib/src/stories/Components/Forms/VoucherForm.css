@@ -1,3 +1,32 @@
-.testvoucher {
-    color: orange;
+.voucher--container {
+    display: flex;
+    align-items: center;
+}
+
+.voucher--container input {
+    width: 100px;
+    border: 1px solid #E5E8EA;
+    border-radius: 3px 0px 0px 3px;
+    border-right: transparent;
+    padding: 9px 10px;
+    font-size: 10px;
+}
+
+.voucher--container input::placeholder {
+    color: #E5E8EA;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.voucher--container input:focus {
+    outline: none;
+}
+
+.voucher--container label {
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background-color: #33A0FF;
+    border-radius: 0px 3px 3px 0px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
