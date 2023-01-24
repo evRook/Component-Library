@@ -7,4 +7,11 @@ export default {
     component: VoucherForm,
 }
 
-export const Voucher = () => <VoucherForm className="testvoucher"/>
+const Template = (args) => <VoucherForm {...args} />
+
+export const Voucher = Template.bind({})
+
+Voucher.args = {
+    Button: "Redeem",
+    Placeholder: "Voucher Code",
+}
