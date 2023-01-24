@@ -1,3 +1,38 @@
-.testVertical {
-    color: red;
+.vertical--container {
+    border: 1px grey solid;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vertical--img {
+    border: 1px grey solid;
+}
+
+.vertical--lineBreak {
+    border: 1px grey solid;
+}
+
+.vertical--title {
+    border: 1px grey solid;
+}
+
+.vertical--sale {
+    border: 1px grey solid;
+}
+
+.vertical--msrp {
+    border: 1px grey solid;
+}
+
+.vertical--rating__container {
+    border: 1px grey solid;
+}
+
+.vertical--price__container {
+    border: 1px grey solid;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
 }
