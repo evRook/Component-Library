@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import macBook from './img/50061505_575246.png'
 import { AiFillStar, AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
 
-export default function VerticalTemplate({props}) {
+export default function VerticalTemplate({Title, Sale, Price}) {
 
     let [state, setState] = useState('none');
     let toggle = {display: state,}
@@ -29,7 +29,7 @@ export default function VerticalTemplate({props}) {
             </div>
         </div>
         <div className="vertical--lineBreak"></div>
-        <p className="vertical--title">Apple MacBook Pro</p>
+        <p className="vertical--title">{Title}</p>
         <div className="vertical--rating__container">
             <AiFillStar className="rating--active"/>
             <AiFillStar className="rating--active"/>
@@ -38,8 +38,8 @@ export default function VerticalTemplate({props}) {
             <AiFillStar className="rating--inactive"/>
         </div>
         <div className="vertical--price__container">
-            <p className="vertical--sale">$499</p>
-            <p className="vertical--msrp">$599</p>
+            <p className="vertical--sale">{Sale}</p>
+            <p className="vertical--msrp">{Price}</p>
         </div>
       </div> 
     );

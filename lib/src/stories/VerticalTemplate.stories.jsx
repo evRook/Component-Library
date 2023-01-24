@@ -7,4 +7,12 @@ export default {
     component: VerticalTemplate,
 }
 
-export const Portfolio = () => <VerticalTemplate />
+const Template = (args) => <VerticalTemplate {...args} />
+
+export const Portfolio = Template.bind({})
+
+Portfolio.args = {
+    Title: "Apple MacBook Pro",
+    Sale: "$499",
+    Price: "$599",
+}
