@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function IconButton({Text, Size = "Medium", icon}) {
+export default function IconButton({Text, Size, icon}) {
 
     let x = 1
     let spacing = 'spacing'
