@@ -10,5 +10,3 @@ export default function CheckboxForm({Text, Style}) {
         </div>
      );
 }
-
-// className="checkbox--global"
