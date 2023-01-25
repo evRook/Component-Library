@@ -1,0 +1,8 @@
+.large--container {
+    width: 450px;
+    padding: 15px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 4px #F1F3F4 solid;
+}
