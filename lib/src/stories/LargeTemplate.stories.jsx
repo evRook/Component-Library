@@ -12,6 +12,7 @@ const Template = (args) => <LargeTemplate {...args} />
 export const Large = Template.bind({})
 
 Large.args = {
+    Tag: 'Hot',
     Title: "Apple MacBook Pro",
     Sale: "$499",
     Price: "$599",

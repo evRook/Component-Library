@@ -25,6 +25,7 @@ export default function LargeTemplate({Title, Sale, Price, Tag, Reviews, Content
                 <p className="large--rating--reviews">0 reviews</p>
                 <a className="large__reviews--link" href="#">Submit a review</a>
             </div>
+            <div className="large--lineBreak"></div>
             <div className="large--price__container">
                 <p className="large--sale">{Sale}</p>
                 <p className="large--msrp">{Price}</p>
