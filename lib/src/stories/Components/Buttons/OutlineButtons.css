@@ -1,0 +1,93 @@
+.global {
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.Outlined-Primary {
+    border: 2px #2e90e5 solid;
+    background-color: #FFFFFF;
+    color: #2e90e5;
+}
+
+.Outlined-Primary:hover {
+    background-color: #2e90e5;
+    color: #FFFFFF;
+}
+
+.Outlined-Primary:active {
+    color: #2e90e5;
+    border: 2px #2e90e5 solid;
+    background-color: #FFFFFF;
+}
+
+.Outlined-Danger {
+    border: 2px #ff4252 solid;
+    background-color: #FFFFFF;
+    color: #ff4252;
+}
+
+.Outlined-Danger:hover {
+    background-color: #ff4252;
+    color: #FFFFFF;
+    
+}
+
+.Outlined-Danger:active {
+    color: #ff4252;
+    border: 2px #ff4252 solid;
+    background-color: #FFFFFF;
+}
+
+.Outlined-Success {
+    border: 2px #07C107 solid;
+    background-color: #FFFFFF;
+    color: #07C107
+}
+
+.Outlined-Success:hover {
+    background-color: #07C107;
+    color: #FFFFFF;
+}
+
+.Outlined-Success:active {
+    color: #07C107;
+    border: 2px #07C107 solid;
+    background-color: #FFFFFF;
+}
+
+.Outlined-Warning {
+    border: 2px #EBB600 solid;
+    background-color: #FFFFFF;
+    color: #EBB600
+}
+
+.Outlined-Warning:hover {
+    background-color: #EBB600;
+    color: #FFFFFF;
+}
+
+.Outlined-Warning:active {
+    color: #EBB600;
+    border: 2px #EBB600 solid;
+    background-color: #FFFFFF;
+}
+
+.Outlined-Default {
+    border: 2px #13161A solid;
+    background-color: #FFFFFF;
+    color: #13161A
+}
+
+.Outlined-Default:hover {
+    background-color: #13161A;
+    color: #FFFFFF;
+}
+
+.Outlined-Default:active {
+    color: #13161A;
+    border: 2px #13161A solid;
+    background-color: #FFFFFF;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Button({Type, Text, Size = "Medium", icon}) {
+export default function Button({Type, Text, Size, icon}) {
 
   let x = 1
   if(Size === "Small"){
@@ -23,15 +23,3 @@ export default function Button({Type, Text, Size = "Medium", icon}) {
    );
 
 }
-
-  // let visited = false
-
-  // function Test(){
-  //   if(visited === true){
-  //     console.log("true")
-  //     visited = false
-  //   }else if(visited === false){
-  //     console.log("false")
-  //     visited = true
-  //   }
-  // }
