@@ -1,3 +1,43 @@
 .landscape--container {
-    border: 2px grey solid;
+    width: 450px;
+    padding: 15px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 4px #F1F3F4 solid;
 }
+
+.landscape--container:hover {
+    background-color: #F1F3F4;
+    cursor: pointer;
+}
+
+.landscape--content__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+.landscape--price__container {
+    display: flex;
+}
+
+.landscape--sale {
+    margin-right: 10px;
+    color: #FF4858;
+}
+
+.landscape--msrp {
+    color: #C1C8CE;
+    text-decoration: line-through;
+}
+
+.landscape--rating--active {
+    color: #FFC600;
+}
+
+.landscape--rating--inactive {
+    color: #C1C8CE;
+}
+
