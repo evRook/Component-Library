@@ -1,0 +1,65 @@
+.global {
+    border: none;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+}
+
+.Faded-Primary {
+    background-color: #bac7ee;
+}
+
+.Faded-Primary:hover {
+    background-color: #2e90e5;
+}
+
+.Faded-Primary:active {
+    background-color: #bac7ee;
+}
+
+.Faded-Danger {
+    background-color: #fab7bc;
+}
+
+.Faded-Danger:hover {
+    background-color: #ff4252;
+}
+
+.Faded-Danger:active {
+    background-color: #fab7bc;
+}
+
+.Faded-Success {
+    background-color: #bbdabb;
+}
+
+.Faded-Success:hover {
+    background-color: #0AD00A;
+}
+
+.Faded-Success:active {
+    background-color: #bbdabb;
+}
+
+.Faded-Warning {
+    background-color: #f9d862;
+}
+
+.Faded-Warning:hover {
+    background-color: #EBB600;
+}
+
+.Faded-Warning:active {
+    background-color: #f9d862;
+}
+
+.Faded-Default {
+    background-color: #c9ccce;
+}
+
+.Faded-Default:hover {
+    background-color: #13161A;
+}
+
+.Faded-Default:active {
+    background-color: #c9ccce;
+}
