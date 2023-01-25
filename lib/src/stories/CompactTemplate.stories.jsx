@@ -12,7 +12,7 @@ const Template = (args) => <CompactTemplate {...args} />
 export const Compact = Template.bind({})
 
 Compact.args = {
-    Title: "Apple MacBook Pro",
+    Title: "Beats Solo 2 On Ear Headphones - Black",
     Sale: "$499",
     Price: "$599",
 }

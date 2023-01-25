@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import macBook from './img/50061505_575246.png'
+import Beats from './img/c04297141.png'
 import { AiFillStar } from "react-icons/ai";
 
 export default function CompactTemplate({Title, Sale, Price}) {
@@ -7,7 +7,7 @@ export default function CompactTemplate({Title, Sale, Price}) {
       <div className="compact--container">
         <div className="compact--img__container">
             <div className="compact--img">
-                <img src={macBook} alt="Apple MacBook Pro" />
+                <img src={Beats} alt="Beats Headphones" />
             </div>
             <div className="img__styleDiv"></div>
         </div>
@@ -22,7 +22,7 @@ export default function CompactTemplate({Title, Sale, Price}) {
             </div>
             <div className="compact--price__container">
                 <p className="compact--sale">{Sale}</p>
-                <p className="comapct--msrp">{Price}</p>
+                <p className="compact--msrp">{Price}</p>
             </div>
         </div>
       </div> 
