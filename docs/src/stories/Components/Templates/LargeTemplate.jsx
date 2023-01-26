@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import macBook from './img/50061505_575246.png'
-import IconButton from '/Users/ericspychalski/GA-Assignments/sandbox/Component-Library/lib/src/stories/Components/Buttons/Icon-Button'
+import IconButton from './Users/ericspychalski/GA-Assignments/sandbox/Component-Library/lib/src/stories/Components/Buttons/Icon-Button'
 import { AiFillStar, AiOutlineShoppingCart, AiOutlineHeart  } from "react-icons/ai";
 
 export default function LargeTemplate({Title, Sale, Price, Tag, Reviews, Content}) {
