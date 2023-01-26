@@ -6,7 +6,7 @@ export default function CheckboxForm({Text, Style}) {
     return ( 
         <div className={"checkbox--container ".concat(Style)}>
             <input type="checkbox" id="checkbox" />
-            <label for="checkbox">{Text}</label>
+            <label htmlFor="checkbox">{Text}</label>
         </div>
      );
 }

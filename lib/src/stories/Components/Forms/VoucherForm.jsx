@@ -19,7 +19,7 @@ export default function VoucherForm({Placeholder, Button, Size}) {
     return ( 
         <div className="voucher--container">
             <input type="text" id="voucher" Size={Size} style={style} placeholder={Placeholder}/>
-            <label for="voucher" Size={Size} style={style}>{Button}</label>
+            <label htmlFor="voucher" Size={Size} style={style}>{Button}</label>
         </div>
      );
 }

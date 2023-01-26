@@ -19,7 +19,7 @@ export default function EmailForm({Size = "Small", Placeholder, Label}) {
 
     return ( 
         <div className="email--container">
-            <label for="emailInput">{Label}</label>
+            <label htmlFor="emailInput">{Label}</label>
             <input type="text" placeholder={Placeholder} id="emailInput" Size={Size} style={style}/>
         </div>
     );
