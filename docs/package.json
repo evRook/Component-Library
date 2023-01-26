@@ -1,10 +1,5 @@
 {
-  "homepage": "http://evrook.github.io/Component-Library",
   "name": "evrook-component-library",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/evRook/Component-Library"
-  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,7 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -o docs-build"
+    "build-storybook": "build-storybook -o docs-build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "eslintConfig": {
     "extends": [
@@ -66,6 +62,7 @@
     "@storybook/node-logger": "^6.5.15",
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.15",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
     "gh-pages": "^5.0.0",
