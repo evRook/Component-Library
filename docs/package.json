@@ -17,12 +17,12 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy-storybook": "gh-pages -d .storybook",
-    "build-storybook": "build-storybook -c .storybook -o storybook-build ",
+    "deploy-storybook": "gh-pages -d .storybook-static",
+    "build-storybook": "build-storybook ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public"
+    "storybook": "start-storybook"
   },
   "eslintConfig": {
     "extends": [
