@@ -65,6 +65,7 @@
     "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.15.0",
     "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
     "webpack": "^5.75.0"
